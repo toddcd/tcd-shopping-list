@@ -1,4 +1,4 @@
-$(function () {
+$(document).ready(function () {
     $('#js-shopping-list-form').submit(event =>{
         event.preventDefault();
 
@@ -17,3 +17,7 @@ $(function () {
         }
     });
 });
+
+
+
+
